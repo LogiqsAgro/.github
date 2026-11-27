@@ -12,9 +12,21 @@ Closes #
 
 <!-- Unit tests, an integration test, a test VM, a customer environment. Write "not needed" with the reason when no test applies. -->
 
+## Risk assessment
+
+<!-- Tick one box. Tick the first box when the Risk assessment of the linked issue matches the diff. Otherwise, name the affected components and tick Low risk or High risk. For a high-risk change, add one line: what breaks when the change is wrong, and how we roll back. When the mark differs from the linked issue, update the issue. -->
+
+Assess the risk of affected systems or components:
+
+- [ ] See the linked issue, it has its "Risk assessment" section filled in.
+- [ ] **Low risk**: one component, easy to revert, no change to authentication, stored data, network exposure or machine control.
+- [ ] **High risk**: touches authentication, stored data, network exposure or machine control, or a fault can stop production at a customer.
+
+Impact and rollback (high risk only):
+
 ## Checklist before you request a review
 
 - [ ] I did a self-review of the change.
-- [ ] The linked issue has its "Risk assessment" section filled in.
+- [ ] The risk assessment, in this pull request or on the linked issue, matches the diff.
 - [ ] I added or updated the tests, and the build is green.
 - [ ] I updated the documentation and the release notes where the change needs it.
