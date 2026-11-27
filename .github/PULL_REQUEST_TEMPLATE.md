@@ -14,14 +14,11 @@ Closes #
 
 ## Risk assessment
 
-<!-- Use one of the two options. Option 1: tick the box when the Risk assessment of the linked issue is filled in and matches the diff. Option 2: assess the risk here from the diff. Name the affected components. Tick one risk box. For a high-risk change, add one line: what breaks when the change is wrong, and how we roll back. When the mark differs from the linked issue, update the issue. -->
+<!-- Tick one box. Tick the first box when the Risk assessment of the linked issue matches the diff. Otherwise, name the affected components and tick Low risk or High risk. For a high-risk change, add one line: what breaks when the change is wrong, and how we roll back. When the mark differs from the linked issue, update the issue. -->
 
-- [ ] The linked issue has its "Risk assessment" section filled in.
+Assess the risk of affected systems or components:
 
-Or assess the risk here:
-
-Affected systems or components:
-
+- [ ] See the linked issue, it has its "Risk assessment" section filled in.
 - [ ] **Low risk**: one component, easy to revert, no change to authentication, stored data, network exposure or machine control.
 - [ ] **High risk**: touches authentication, stored data, network exposure or machine control, or a fault can stop production at a customer.
 
